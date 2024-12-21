@@ -2,9 +2,9 @@
   "name": "video-downloader",
   "version": "1.0.0",
   "description": "A web application for downloading videos using Dark Yasiya's API.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
