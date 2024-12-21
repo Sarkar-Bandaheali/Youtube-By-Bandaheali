@@ -2,16 +2,15 @@
   "name": "video-downloader",
   "version": "1.0.0",
   "description": "A web application for downloading videos using Dark Yasiya's API.",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5"
   },
-  "devDependencies": {},
-  "keywords": ["video", "downloader", "youtube", "dark-yasiya-api", "vercel"],
+  "keywords": ["video", "downloader", "tiktok", "dark-yasiya-api", "vercel"],
   "author": "Sarkar-MD",
   "license": "MIT"
 }
