@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube Video Downloader</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Video Downloader</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <div class="container">
-    <h1>YouTube Video Downloader</h1>
-    <input type="text" id="search" placeholder="Enter search term...">
-    <button id="searchBtn">Search</button>
-    <div id="results"></div>
+    <h1>Video Downloader</h1>
+    <input type="text" id="videoUrl" placeholder="Enter Video URL" />
+    <button id="downloadButton">Download</button>
+    <div id="errorMessage" style="display: none; color: red;">Error fetching video!</div>
+    <a id="downloadLink" style="display: none;">Download Video</a>
   </div>
-  <script src="script.js"></script>
+  <script src="/script.js"></script>
 </body>
 </html>
